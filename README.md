@@ -1,4 +1,4 @@
-Trea 3/CASO -- Base de Datos
+Tarea 3/CASO -- Base de Datos
 
 Integrantes:
 
