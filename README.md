@@ -53,6 +53,9 @@ REQUISITOS PREVIOS:
 
    docker compose -f deploy-2024736256-2024736418.yml up -d
 
+    (en caso de problema en la creación por nodo ya existente usar:
+    docker compose -f deploy-2024736256-2024736418.yml down -v)
+
 7. Esperar 10 segundos para que los procesos de mongod arranquen completamente.
 
 8. Inicializar el Replica Set desde el contenedor mongo1:
@@ -93,6 +96,5 @@ REQUISITOS PREVIOS:
    * atenciones (anidadas): 64
    * recetas (anidadas):    86
 
-12. Ejecutar el notebook con runall.
-
-Alt + z <---- Recomendacion
+12. Ejecutar el notebook normalmente hasta seccion 4.4.3, a partir de ahi seguir
+instrucciones del notebook (que da el codigo)
